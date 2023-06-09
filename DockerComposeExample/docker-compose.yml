@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  web-api:
+    container_name: web-api
+    build: 
+      context: .
+      dockerfile: WebApplication1/Dockerfile
+    ports:
+      - "5000:80"
+    volumes:
+      - c:\temp:/app/weather_forecast_files
+    network_mode: bridge
+  worker-service:
+    container_name: worker-service
+    build:
+      context: .
+      dockerfile: WorkerService1/Dockerfile
+    ports:
+      - "5010:80"
+    volumes:
+      - c:\temp:/app/weather_forecast_files
+    network_mode: bridge

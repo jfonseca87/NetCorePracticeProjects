@@ -1,0 +1,106 @@
+2022-08-10 21:06:07.257 -05:00 [INF] Now listening on: https://localhost:7121
+2022-08-10 21:06:07.294 -05:00 [INF] Now listening on: http://localhost:5046
+2022-08-10 21:06:07.296 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-10 21:06:07.296 -05:00 [INF] Hosting environment: Development
+2022-08-10 21:06:07.296 -05:00 [INF] Content root path: C:\Users\jorge\source\repos\SerilogTest\
+2022-08-10 21:06:07.409 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/ - -
+2022-08-10 21:06:07.458 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/ - - - 404 0 - 51.0062ms
+2022-08-10 21:06:50.815 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:50.820 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:50.827 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:50.828 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:50.828 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:50.833 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:50.852 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 21.0114ms
+2022-08-10 21:06:50.855 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:50.855 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 40.5017ms
+2022-08-10 21:06:53.310 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:53.310 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:53.311 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:53.311 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:53.311 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:53.311 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:53.311 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 0.4411ms
+2022-08-10 21:06:53.311 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:53.311 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 1.2683ms
+2022-08-10 21:06:53.948 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:53.948 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:53.948 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:53.948 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:53.948 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:53.948 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:53.948 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 0.2204ms
+2022-08-10 21:06:53.948 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:53.948 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 0.6939ms
+2022-08-10 21:06:54.292 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:54.292 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.292 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:54.292 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:54.292 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:54.292 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:54.292 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 0.2587ms
+2022-08-10 21:06:54.292 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.292 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 0.6984ms
+2022-08-10 21:06:54.451 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:54.451 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.451 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:54.451 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:54.451 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:54.451 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:54.451 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 0.2025ms
+2022-08-10 21:06:54.451 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.451 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 0.6247ms
+2022-08-10 21:06:54.563 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:54.563 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.564 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:54.564 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:54.564 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:54.564 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:54.564 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 0.2335ms
+2022-08-10 21:06:54.564 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.564 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 0.7008ms
+2022-08-10 21:06:54.699 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:54.699 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.699 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:54.699 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:54.699 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:54.700 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:54.700 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 0.2258ms
+2022-08-10 21:06:54.700 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.700 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 0.8228ms
+2022-08-10 21:06:54.820 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:54.820 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.821 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:54.821 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:54.821 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:54.821 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:54.821 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 0.2016ms
+2022-08-10 21:06:54.821 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.821 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 0.5689ms
+2022-08-10 21:06:54.947 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:54.947 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.947 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:54.947 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:54.947 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:54.947 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:54.947 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 0.2031ms
+2022-08-10 21:06:54.948 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:54.948 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 0.6277ms
+2022-08-10 21:06:55.067 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:55.067 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:55.067 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:55.067 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:55.067 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:55.067 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:55.068 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 0.216ms
+2022-08-10 21:06:55.068 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:55.068 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 0.6245ms
+2022-08-10 21:06:55.196 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7121/weatherforecast - -
+2022-08-10 21:06:55.196 -05:00 [INF] Executing endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:55.196 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogTest.WeatherForecast] Get() on controller SerilogTest.Controllers.WeatherForecastController (SerilogTest).
+2022-08-10 21:06:55.196 -05:00 [INF] WeatherForecastController created
+2022-08-10 21:06:55.196 -05:00 [INF] Getting weather forecast data
+2022-08-10 21:06:55.196 -05:00 [INF] Executing ObjectResult, writing value of type 'SerilogTest.WeatherForecast[]'.
+2022-08-10 21:06:55.196 -05:00 [INF] Executed action SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest) in 0.1913ms
+2022-08-10 21:06:55.196 -05:00 [INF] Executed endpoint 'SerilogTest.Controllers.WeatherForecastController.Get (SerilogTest)'
+2022-08-10 21:06:55.196 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7121/weatherforecast - - - 200 - application/json;+charset=utf-8 0.5981ms

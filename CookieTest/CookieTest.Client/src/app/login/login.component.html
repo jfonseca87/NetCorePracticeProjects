@@ -1,0 +1,14 @@
+<div>
+    <div>
+        <label for="">User</label>
+        <input type="text" [(ngModel)]="user.name">
+    </div>
+    <div>
+        <label for="">Password</label>
+        <input type="password" [(ngModel)]="user.password">
+    </div>
+    <div>
+        <button (click)="logIn()">login</button>
+    </div>
+</div>
+{{ user | json }}
